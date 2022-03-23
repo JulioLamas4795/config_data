@@ -70,7 +70,7 @@ resilience4j:
         cancelRunningFuture: true
 
 apiclient:
-  uri: http://192.168.254.79:8083
+  uri: http://localhost:8083
 microservice-client:
   uri: /api/clients/
 microservice-accounts:
