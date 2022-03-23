@@ -6,7 +6,9 @@ spring:
   data:
     mongodb:
       #uri: mongodb+srv://spiritbear:Cuymagic321@mycluster.s22zz.mongodb.net/withdrawal?retryWrites=true&w=majority
-      uri: mongodb+srv://developer:developer@cluster0.aa6qr.mongodb.net/withdrawal?retryWrites=true&w=majority
+      #uri: mongodb+srv://developer:developer@cluster0.aa6qr.mongodb.net/withdrawal?retryWrites=true&w=majority
+      uri: mongodb+srv://julio:julio@bootcamp.drivb.mongodb.net/withdrawal?retryWrites=true&w=majority
+
 
 eureka:
   client:
