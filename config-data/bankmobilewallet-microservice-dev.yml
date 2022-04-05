@@ -19,6 +19,16 @@ management:
   info:
     env:
       enabled: true
+
+info:
+  application:
+    name : bankmobilewallet-microservice
+    Description : This is a Microservice to manage mobile wallet
+    artifact : bank-mobilewallet
+    version : '@project.version@'
+    spring-cloud-version: '@spring-cloud.version@'
+    spring-boot-version: 2.6.4
+
 eureka:
   client:
     service-url:

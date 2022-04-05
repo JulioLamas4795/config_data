@@ -19,6 +19,16 @@ management:
   info:
     env:
       enabled: true
+
+info:
+  application:
+    name : bankcommission-microservice
+    Description : This is a Microservice to manage commission
+    artifact : bank-commission
+    version : '@project.version@'
+    spring-cloud-version: '@spring-cloud.version@'
+    spring-boot-version: 2.6.4
+
 eureka:
   client:
     service-url:
