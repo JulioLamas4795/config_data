@@ -42,6 +42,6 @@ spring:
             predicates:
               - Path=/api/commission/**
         - id: bankmobilewallet-microservice
-            uri: http://localhost:8098
+            uri: http://localhost:8099
             predicates:
               - Path=/api/mobilewallet/**
